@@ -10,7 +10,7 @@ import chatRouter from "./routes/chat.router.js";
 const port = process.env.PORT || 30000;
 
 const app = express();
-app.use(cors({origin:"http://localhost:5173",
+app.use(cors({origin:"https://chatme-frontend-ochre.vercel.app",
   credentials:true,
 }
 
