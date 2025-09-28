@@ -22,6 +22,10 @@ app.use("/api/auth", authRouter);
 app.use("/api/users",userRouter)
 app.use("/api/chat",chatRouter);
 
+app.get("/",(req,res)=>{
+res.json("deployed")
+})
+
 connectDB().then(() => {
   app.listen(port, () => {
     console.log(`app is listenig at http://localhost:${port}`);
