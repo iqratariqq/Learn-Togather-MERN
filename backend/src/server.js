@@ -23,7 +23,7 @@ app.use("/api/users",userRouter)
 app.use("/api/chat",chatRouter);
 
 app.get("/",(req,res)=>{
-res.json("deployed")
+res.json("url updated")
 })
 
 connectDB().then(() => {
