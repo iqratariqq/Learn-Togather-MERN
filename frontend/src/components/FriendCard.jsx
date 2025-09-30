@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const FriendCard = ({ friend }) => {
   return (
-    <div className="card bg-base-200 hover:shadow-lg transition-shadow mb-7">
+    <div className="card bg-base-200 hover:shadow-lg transition-shadow mb-7 mr-5">
       {console.log("rend", friend)}
       <div className="card-body  p-4">
         <div className="flex items-center gap-3 mb-3">
